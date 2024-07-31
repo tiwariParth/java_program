@@ -7,12 +7,11 @@ public class Calc {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-
         char opr = sc.next().charAt(0);
 
         if (opr=='+') {
             int sum = a+b;
-            System.out.print("Addition :"+sum);
+            System.out.println("Addition :"+sum);
         }
         else if(opr=='-'){
             int sub = a-b;
