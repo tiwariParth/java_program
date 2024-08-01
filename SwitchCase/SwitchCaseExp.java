@@ -13,7 +13,6 @@ public class SwitchCaseExp {
         case 1:
             System.out.println("odd");
             break;
-   
     }
    }
 }
