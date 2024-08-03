@@ -17,7 +17,6 @@ public class SumOfArray {
             sum = arr[i]+sum;
             f++;
         }
-        
         int avg = sum/f;
         System.out.println("Average :"+ avg);
         System.out.println("Sum :"+sum);
