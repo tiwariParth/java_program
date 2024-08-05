@@ -13,13 +13,11 @@ public class MaxMinArray {
             arr[i] = sc.nextInt();
             max = arr[i];
             min = arr[i];
-        }
-        for(int j = 0;j<=arr.length-1;j++){
-            if (arr[j]>max) {
-                max = arr[j];
+            if (arr[i]>max) {
+                max = arr[i];
             }
-            if (arr[j]<min) {
-                min = arr[j];
+            if (arr[i]<min) {
+                min = arr[i];
             }
         }
         System.out.println("Max number is :"+ max);
