@@ -11,8 +11,8 @@ public class MaxMinArray {
         
         for(int i = 0;i<=arr.length-1;i++){
             arr[i] = sc.nextInt();
-            max = i;
-            min = i;
+            max = arr[i];
+            min = arr[i];
         }
         for(int j = 0;j<=arr.length-1;j++){
             if (arr[j]>max) {
