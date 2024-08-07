@@ -12,7 +12,6 @@ public class CountString{
       if (s.charAt(i)==' '&& s.charAt(i-1)!=' ') {
         count++;
       }
-      
     }
     System.out.println(count + " Words");
   }
